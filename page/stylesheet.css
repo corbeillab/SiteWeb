@@ -4,7 +4,7 @@
 *        MEDIA       *
 *********************/
 
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-device-width: 600px) {
   /* .map {height: 75%;} */
   .menu_v_home {display: none; }
   .menu_v {display: none; }
@@ -25,7 +25,7 @@
 
 }
 
-@media only screen and (min-width: 37.56em) {
+@media only screen and (min-device-width: 37.56em) {
   .menu_v_home { display: flex; flex-direction: column;}
   .menu_v { display: flex; flex-direction: column;}
   .menu-wrap { display: none; }
