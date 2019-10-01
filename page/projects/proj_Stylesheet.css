@@ -1,0 +1,95 @@
+.proj_title h2 {
+  margin: auto;
+  text-align: left;
+  font-family: Raleway;
+  color: #00143e;
+  font-size: 2em;
+  margin-top: 7%;
+  margin-left: 12%;
+  margin-bottom: 3%;
+  margin-right: 10%;
+}
+
+
+/* margin: 5% auto 5% 15%;
+ */
+
+.project_details{
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  margin-left: 10%;
+}
+
+.project_details h2{
+  /* margin: 2em 0; */
+}
+
+.project_details h3{
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+.project_details_content{
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-around;
+  margin-left: 12%;
+  margin-right: 7%;
+  flex-direction: row;
+
+}
+
+.proj_description{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-right: 7%;
+  /* width: 55%; */
+  text-align: justify;
+  line-height: 1.5;
+  /* max-width: 45em; */
+  font-family: Calibri;
+}
+
+.investigators{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  min-width: 10em;
+  padding-right: 2em;
+}
+
+.complementary_info{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.funding{
+  display: flex;
+  flex-direction: column;
+  /* max-width: 20%; */
+}
+
+.funding img{
+  max-width: 15em;
+  /* height: 6em; */
+}
+
+.no_bullet_list{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.no_bullet_list p{
+  line-height: 1;
+}
+
+.no_bullet_list em{
+  font-size: 110%;
+  font-weight: bold;
+  font-style: normal;
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <body>
+
+    <header>
+      <meta charset="utf-8" />
+      <link rel="stylesheet" href="proj_Stylesheet.css" />
+      <link rel="stylesheet" href="../stylesheet.css" />
+      <title>Test3 CorbeilLab</title>
+    </header>
+
+    <div class="menu_v"> <!-- Contenu du header ...header_content -->
+      <div class="logo">
+        <img src="../../images/logo_modif.png" alt="">
+      </div>
+
+      <div class="menu_proj"> <!-- Menu ...container lime -->
+        <a href="../home.html">Home</a>
+        <a href="../projects.html">Projects</a>
+        <a href="../softwares.html">Softwares</a>
+        <a href="../members.html">Team</a>
+        <a href="https://scholar.google.ca/citations?hl=en&user=ZOxQV80AAAAJ&view_op=list_works&sortby=pubdate">Publications</a>
+        <a href="../contact.html">Contact</a>
+      </div>
+    </div>
+
+    <div class="MainContent_proj">
+
+      <div class="project_details">
+        <div class="proj_title">
+          <h2>TITRE DU PROJET</h2>
+        </div>
+        <div class="project_details_content">
+
+          <div class="proj_description">
+            <p>
+              PUT DESCRIPTION HERE.
+              ADD <br> TO SKIP LINE.
+              ADD <br><br> TO SEPARATE TWO PARAGRAPHS.
+            </p>
+          </div>
+
+          <div class="investigators">
+            <div class="principals">
+              <h3>Investigators</h3>
+              <ul class="no_bullet_list">
+
+                ### COPY, PASTE AND FILL THIS BLOC FOR EACH INVESTIGATOR ###
+                <li>
+                  <p>
+                    <em>NAME</em></br>
+                    AFFILIATION1</br>
+                    AFFILIATION2
+                  </p>
+                </li>
+                ### END OF BLOC ###
+
+              </ul>
+
+            </div>
+            <div class="co_investigators"><!-- Bloc Lines of research -->
+              <h3>Co-Investigators</h3>
+              <ul class="no_bullet_list">
+
+                ### COPY, PASTE AND FILL THIS BLOC FOR EACH CO-INVESTIGATOR ###
+                <li>
+                  <p>
+                    <em>NAME</em></br>
+                    AFFILIATION1</br>
+                    AFFILIATION2
+                  </p>
+                </li>
+                ### END OF BLOC ###
+
+              </ul>
+            </div>
+          </div>
+
+          <div class="complementary_info">
+            <div class="funding">
+              <h3>Funding</h3>
+              <img src="PATH/TO/LOGO-IMAGE">
+            </div>
+
+            <div class="collaborators">
+
+              ### COPY, PASTE AND FILL THIS BLOC FOR EACH COLLABORATOR ###
+              <li>
+                <p>
+                  <em>NAME</em></br>
+                  AFFILIATION1</br>
+                  AFFILIATION2
+                </p>
+              </li>
+              ### END OF BLOC ###
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+    </div>
+
+
+    <footer>
+    </footer>
+
+  </body>
+</html>
