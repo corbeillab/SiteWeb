@@ -12,7 +12,7 @@
   .img_nancy {display: none;}
   .no1,.no3 {display: none;}
   .no2, .no4 {max-width: 100vw; max-height: 50vh;}
-  #about {font-size: 2em;}
+  #about {font-size: 200%;}
   .title_proj, .projects {margin-left: 0;}
   .member_img_L, .member_img, .contact_img {display: none;}
   .preview_member_L, .preview_member_R {margin: 1em 1em 1em 3em;}
