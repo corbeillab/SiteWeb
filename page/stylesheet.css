@@ -13,22 +13,27 @@
   .no1,.no3 {display: none;}
   .no2, .no4 {max-width: 100vw; max-height: 50vh;}
   #about {font-size: 200%;}
-  .title_proj, .projects {margin-left: 0;}
-  .project_block {height: 30em; width: 30em; margin:2em 1em;}
+  .projects {margin-left: 5%;}
+  .title_proj {margin-left: 5%; font-size: 3.5em;}
+  .project_block {height: 30em; width: 30em; margin:3em 1em;}
   .project_summary p{font-size: 2em;}
   .project_title h3{font-size: 3em;}
-  .project_img {margin-top: 20%;}
-  .software_block {height: 30em; width: 30em; margin:2em 1em;}
+  .project_img {margin-top: 100%;}
+  .softwares {margin-left: 5%;}
+  .software_block {height: 30em; width: 30em; margin:3em 1em;}
   .software_summary p{font-size: 2em;}
   .software_title h3{font-size: 3em;}
-  .software_img {margin-top: 20%;}
+  .software_img {margin-top: 100%;}
+  .title_mem {font-size: 3.5em;}
   .member_img_L, .member_img, .contact_img {display: none;}
   .preview_member_L, .preview_member_R {margin: 1em 1em 1em 3em;}
   .preview_member_L p, .preview_member_R p{font-size: 2em;}
   .preview_member_L h3, .preview_member_R h3{font-size: 3em;}
   .member_position {color:#808080;}
-  .members_all {margin-left: 0;}
+  .members_all {margin-left: 5%;}
   .contacts, .location {flex-wrap: wrap;}
+  .title_contact {font-size: 3.5em;}
+  .contacts {margin-left: 5%; margin-right: 5%;}
   .contact_position { display: none;}
   .contact_name h3 {font-size: 3em;}
   .contact_coord p, .contact_coord a {font-size: 2em;}
@@ -50,10 +55,13 @@
   .no2, .no4 {max-width: 50vw; max-height: 39vh;}
   #about {font-size: 1.2em;}
   .project_block {height: 30em; width: 20em; margin:2em 1em;}
+  .projects {margin-left: 15%;}
+  .softwares {margin-left: 15%;}
   .preview_member_L, .preview_member_R {margin: 1em 6em 1em 7em;}
   .member_position {color:#AAA;}
   .member_content {max-width: 83%; min-width: 83%;}
   .members_all {margin-left: 17%;}
+  .contacts {margin-left: 25%; margin-right: 10%;}
   .location p {margin-left: 2em;}
   .google_map {width: 55%;}
   .Copyright, .Copyright_c {margin: 2% auto 0 40%; display: flex;}
@@ -543,7 +551,7 @@ div.menu_proj2 a
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  margin-left: 15%;
+  /* margin-left: 15%; */
   /* margin-top: 15%; */
 }
 
@@ -744,7 +752,7 @@ div.menu_proj2 a
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  margin-left: 15%;
+  /* margin-left: 15%; */
 }
 
 .software_block{
@@ -813,8 +821,8 @@ div.menu_proj2 a
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  margin-left: 25%;
-  margin-right: 10%;
+  /* margin-left: 25%;
+  margin-right: 10%; */
 
 }
 
