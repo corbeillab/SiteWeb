@@ -24,6 +24,7 @@
   .software_summary p{font-size: 2em;}
   .software_title h3{font-size: 2.5em;}
   .software_img {margin-top: 3%;}
+  .software_img img {max-width: 60%;}
   .title_mem {font-size: 3.5em; margin-left: 0;}
   .member_img_L, .member_img, .contact_img {display: none;}
   .preview_member_L, .preview_member_R {margin: 1em 1em 1em 3em;}
@@ -35,7 +36,7 @@
   .title_contact {font-size: 3.5em;}
   .contacts, .find_us {margin-left: 5%; margin-right: 5%;}
   .contact_position { display: none;}
-  .contact_name h3 {font-size: 3em;}
+  .contact_name h3 {font-size: 2em;}
   .contact_coord p, .contact_coord a {font-size: 2em;}
   .find_us h3 {font-size: 2em;}
   .location p{font-size: 2em;}
@@ -59,7 +60,10 @@
   .project_summary {height: 10em;}
   .projects {margin-left: 15%;}
   .softwares {margin-left: 15%;}
+  .software_block {height: 30em; width: 20em; margin:2em 1em;}
   .software_summary {max-height: 6em;}
+  /* .software_img {height: 18em; width:  18em;} */
+  .software_img img {max-width: 20em;}
   .preview_member_L, .preview_member_R {margin: 1em 6em 1em 7em;}
   .member_position {color:#AAA;}
   .member_content {max-width: 83%; min-width: 83%;}
@@ -772,14 +776,18 @@ div.menu_proj2 a
 }
 
 .software_img{
-  height: 18em;
-  width:  18em;
+  /* height: 18em;
+  width:  18em; */
+  display: flex;
   margin-top: 1em;
-  /* align-items: center; */
+  align-items: center;
+  justify-content: center;
 }
 
 .software_img img{
   height: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
 .software_title h3{
