@@ -33,11 +33,12 @@
   .member_position {color:#808080;}
   .members_all {margin-left: 3%; margin-right: 3%;}
   .contacts, .location {flex-wrap: wrap;}
-  .title_contact {font-size: 3.5em;}
-  .contacts, .find_us {margin-left: 5%; margin-right: 5%;}
+  .title_contact {font-size: 3.5em; margin-left: 0;}
+  /* .contacts, .find_us {margin-left: 5%; margin-right: 5%;} */
   .contact_position { display: none;}
   .contact_name h3 {font-size: 2em;}
   .contact_coord p, .contact_coord a {font-size: 2em;}
+  .find_us {margin-left: 0;}
   .find_us h3 {font-size: 2em;}
   .location p{font-size: 2em;}
   .location p {margin-left: 0; margin-top: 2em;}
@@ -68,7 +69,9 @@
   .member_position {color:#AAA;}
   .member_content {max-width: 83%; min-width: 83%;}
   .members_all {margin-left: 17%;}
+  .title_contact {margin-left: 15%;}
   .contacts {margin-left: 25%; margin-right: 10%;}
+  .find_us {margin-left: 15%;}
   .location p {margin-left: 2em;}
   .google_map {width: 55%;}
   .Copyright, .Copyright_c {margin: 2% auto 0 40%; display: flex;}
@@ -785,7 +788,7 @@ div.menu_proj2 a
 }
 
 .software_img img{
-  height: 100%;
+  /* height: 100%; */
   align-items: center;
   justify-content: center;
 }
@@ -828,7 +831,7 @@ div.menu_proj2 a
   font-size: 1.5em;
   /* margin: 5% auto 5% 15%; */
   margin-top: 3%;
-  margin-left: 15%;
+  /* margin-left: 15%; */
   margin-bottom: 3%;
 }
 
@@ -896,7 +899,7 @@ div.menu_proj2 a
 .find_us {
   display: flex;
   flex-direction: column;
-  margin-left: 15%;
+  /* margin-left: 15%; */
   padding-left: 11%;
 
 }
