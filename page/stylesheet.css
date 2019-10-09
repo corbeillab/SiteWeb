@@ -52,7 +52,7 @@
   .menu_v_home { display: flex; flex-direction: column;}
   .menu_v { display: flex; flex-direction: column;}
   .menu-wrap { display: none; }
-  .img_nancy {display: block;}
+  .img_nancy {display: flex;}
   .no1,.no3 {display: block;}
   .no2, .no4 {max-width: 50vw; max-height: 39vh;}
   #about {font-size: 1.2em;}
