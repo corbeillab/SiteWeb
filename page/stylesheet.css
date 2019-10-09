@@ -511,6 +511,7 @@ div.menu_proj2 a
 .img_nancy img {
   height: 100vh;
   margin-left: -350px;
+  -webkit-transform: rotate(-90deg);
   transform: rotate(-90deg);
 
 }
