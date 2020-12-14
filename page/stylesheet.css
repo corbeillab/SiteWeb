@@ -716,7 +716,14 @@ div.menu_proj2 a
   text-align: left;
 }
 
-.member_name h3{
+.member_name_R{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  text-align: left;
+}
+
+.member_name h3, .member_name_R h3{
   margin: 0;
   font-family: Raleway
 }
