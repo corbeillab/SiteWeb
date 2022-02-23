@@ -1,56 +1,42 @@
 <!DOCTYPE html>
 <html>
-  <body>
 
-    <head>
-      <meta charset="utf-8" />
-      <link rel="stylesheet" href="page/stylesheet.css" />
-      <title>Corbeil Laboratory</title>
-      <metaname="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    </head>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="page/stylesheet.css" />
+    <title>Corbeil Laboratory</title>
+    <metaname="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
+  </head>
+
+  <script src="js/js-splash-2.0.min.js"> </script>
+
+  <script>
+   if (! document.referrer.includes(location.host)) {
+     // Or instance with custom parameter
+     var splash = new Splash({background: 'rgba(0, 0, 0, 0.7)'}, {
+       use: false,
+       /* duration: 900, */
+       start: FancyAnimation.moveIn,
+       end: FancyAnimation.moveOut
+     });
+     splash.fromImage("./img/splash.webp", 3000, {
+       width: '97%',
+     });
+   }
+  </script>
+
+  <body>
 
     <div class="MainContent_home">
 
-      <div class="supp">
-
-        <div class="img_represent">
-          <div class="img_indv no1">
-            <img src="img/resize_0106.png">
-          </div>
-          <div class="img_indv no2">
-            <img src="img/IMG_0170.jpg">
-          </div>
-          <!-- <div class="img_indv no3">
-            <img src="../images/photo_CHUL/IMG_0120.jpg">
-          </div> -->
-        </div>
-
-        <div class="title_lab">
-          <h1>Corbeil Laboratory</h1>
-        </div>
-
-        <div class="img_represent">
-          <div class="img_indv no3">
-            <img src="img/IMG_0031.jpg">
-          </div>
-          <div class="img_indv no4">
-            <img src="img/IMG_0099.jpg">
-          </div>
-          <!-- <div class="img_indv no3">
-            <img src="../images/photo_CHUL/IMG_0120.jpg">
-          </div> -->
-        </div>
-
-      </div>
-
-      <div class="inf">
+      <div class="inf" id="home">
         <div class="menu_v_home"> <!-- Contenu du header ...header_content -->
           <div class="logo">
             <img src="img/logo_modif.png" alt="">
           </div>
 
           <div class="menu_proj"> <!-- Menu ...container lime -->
-            <a href="index.html">Home</a>
+            <a href="#home">Home</a>
             <a href="page/projects.html">Projects</a>
             <a href="page/softwares.html">Softwares</a>
             <a href="page/members.html">Team</a>
@@ -76,49 +62,49 @@
 
         <div class="description">
           <div id="about"><!-- Bloc About -->
-              <p><h3>About</h3>
-                The research of our group is  centred on the investigation of
-                host-pathogen relationships and the integration of <strong>omics</strong>
-                sciences. We have utilized many approaches to carry out these
-                investigations with a constant of using new technologies coupled
-                to the power of bioinformatics and more specifically <strong>machine
+            <p><h3>About</h3>
+              The research of our group is  centred on the investigation of
+              host-pathogen relationships and the integration of <strong>omics</strong>
+              sciences. We have utilized many approaches to carry out these
+              investigations with a constant of using new technologies coupled
+              to the power of bioinformatics and more specifically <strong>machine
                 learning</strong> to gain insight into biological processes.<br><br>
 
-                My Chair is focused in translating our research discoveries
-                to the market. We identify problems at the bedside and try to
-                solve them at the bench. <br><br>
+              My Chair is focused in translating our research discoveries
+              to the market. We identify problems at the bedside and try to
+              solve them at the bench. <br><br>
 
-                Our bioinformatics efforts are implemented at <strong>Université
+              Our bioinformatics efforts are implemented at <strong>Université
                 Laval</strong> with funds provided by the Canadian Foundation for
-                Innovation and the Compute Canada infrastructure.</p>
-            </div>
-            <div id="lines_research"><!-- Bloc Lines of research -->
-              <!-- <p><h3>Avenues of research</h3> -->
+              Innovation and the Compute Canada infrastructure.</p>
+          </div>
+          <div id="lines_research"><!-- Bloc Lines of research -->
+            <!-- <p><h3>Avenues of research</h3> -->
 
-                <!-- We focus on HIV/AIDS, Leishmania, respiratory viruses and more
-                recently on Malaria, Tuberculosis and emerging pathogens.
-                We are also interested in the metagenomic aspects of microbes
-                in diverse environments and the effect of drugs on the
-                composition of the human gut microbiome. Recognizing that the
-                bottleneck in most studies was the extraction of pertinent
-                information, we developed software applications and
-                <strong>bioinformatics processes</strong> to assist in deciphering the data.
-                We are utilizing system biology approaches and kernel-based
-                algorithms to assist with the massive amount of data coming
-                out of the new sequencing and mass spectrometry technologies,
-                including metabolomic profiling.<br><br>
+              <!-- We focus on HIV/AIDS, Leishmania, respiratory viruses and more
+                   recently on Malaria, Tuberculosis and emerging pathogens.
+                   We are also interested in the metagenomic aspects of microbes
+                   in diverse environments and the effect of drugs on the
+                   composition of the human gut microbiome. Recognizing that the
+                   bottleneck in most studies was the extraction of pertinent
+                   information, we developed software applications and
+                   <strong>bioinformatics processes</strong> to assist in deciphering the data.
+                   We are utilizing system biology approaches and kernel-based
+                   algorithms to assist with the massive amount of data coming
+                   out of the new sequencing and mass spectrometry technologies,
+                   including metabolomic profiling.<br><br>
 
-                We also continue to work extensively in the cancer and
-                diagnostic fields.  We use novel instrumentation to monitor
-                molecular interactions (protein-protein, DNA-protein and
-                small molecules) using porous silicate and interferometry
-                to assist in system biology model reconstruction.<br><br>
+                   We also continue to work extensively in the cancer and
+                   diagnostic fields.  We use novel instrumentation to monitor
+                   molecular interactions (protein-protein, DNA-protein and
+                   small molecules) using porous silicate and interferometry
+                   to assist in system biology model reconstruction.<br><br>
 
-                For more information, see our research projects in the project section.
-              </p> -->
-            </div>
+                   For more information, see our research projects in the project section.
+            </p> -->
+          </div>
           <!-- <div class="Copyright_h">
-            <p>Copyright © 2019 · Website by Élina Francovic-Fontaine · All Rights Reserved · Corbeil Lab</p>
+               <p>Copyright © 2019 · Website by Élina Francovic-Fontaine · All Rights Reserved · Corbeil Lab</p>
           </div> -->
         </div>
 
