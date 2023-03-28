@@ -261,10 +261,10 @@ a:hover {
 
 
 .menu_v_home{
-  /* display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */ */
-  /* display: -ms-flexbox;  /* TWEENER - IE 10 */ */
-  /* display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */ */
-  /* display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */ */
+  /* display: -webkit-box;    OLD - iOS 6-, Safari 3.1-6, BB7 */
+  /* display: -ms-flexbox;  /* TWEENER - IE 10 */
+  /* display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+  /* display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
 
   margin-top: 0;
   margin-bottom: 0;
@@ -468,8 +468,7 @@ div.menu_proj2 a
   transition-property: opacity;
   transition-duration: 0.2s;
   transition-timing-function: ease-out;
-  /* box-shadow: 20px 10px 0 #f64d00; /*, 0 20px 0 #f64d00;*/ */
-
+  /* box-shadow: 20px 10px 0 #f64d00; /*, 0 20px 0 #f64d00;*/
 }
 
 .description {
@@ -659,7 +658,6 @@ div.menu_proj2 a
 
 .alumni{
   display: flex;
-  align-items: left;
   justify-content: center;
   flex-direction: column;
   margin: 5% auto;
