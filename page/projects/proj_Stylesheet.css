@@ -61,7 +61,6 @@
   margin-left: 12%;
   margin-right: 7%;
   /* flex-direction: row; */
-
 }
 
 .proj_description{
@@ -106,10 +105,16 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
+  flex-direction: column;
+  padding-left: 15em;
 }
 
 .no_bullet_list p{
   line-height: 1;
+}
+
+.no_bullet_list li{
+  align-content: center;
 }
 
 .no_bullet_list em{
@@ -133,7 +138,6 @@ hr{
   margin-top:3em;
   margin-left:30%;
   margin-right:15%;
-
 }
 
 .Thanks p{
@@ -143,5 +147,4 @@ hr{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
 }
