@@ -57,7 +57,7 @@
   .no1,.no3 {display: block;}
   .no2, .no4 {max-width: 50vw; max-height: 39vh;}
   #about {font-size: 1.2em;}
-  .project_block {height: 30em; width: 20em; margin:2em 1em;}
+  .project_block {height: 30em; width: 20em; padding:0 1em;}
   .project_img {margin-top: 1em;}
   .project_summary {height: 10em;}
   .projects {margin-left: 15%;}
@@ -556,6 +556,9 @@ div.menu_proj2 a
   margin-top: 3%;
   margin-left: 15%;
   margin-bottom: 3%;
+  /*  margin-top: 0/*3%;
+  margin-left: 15%;
+  margin-bottom: 0/*3%;*/
 }
 
 /* .title_proj img {
@@ -574,17 +577,27 @@ div.menu_proj2 a
   /* margin-top: 15%; */
 }
 
+.projects_a_spacing{
+  margin: 1em 2em;
+}
+
 .project_block{
   /* height: 30em;
   width: 20em;
   margin:2em 1em; */
   /* border: 1px solid black; */
+  padding: 2.5em 1em;
+}
+
+.project_block:hover{
+  text-decoration: none;
+  color: black;
 }
 
 .project_title h3{
   font-family: Raleway;
   text-align: center;
-  margin: 0.5em auto;
+  margin: 0 auto;
 }
 
 .project_content{
@@ -599,7 +612,7 @@ div.menu_proj2 a
 }
 
 .project_summary{
-  padding: 0 1.5em;
+  padding: 0.5em 1.5em;
   /* height: 10em; */
   /* border: 1px solid black; */
   /* overflow-y: scroll; */
@@ -789,6 +802,7 @@ div.menu_proj2 a
 }
 
 .software_summary p{
+  font-family: calibri;
   text-align: justify;
   line-height: 1.5;
 }
