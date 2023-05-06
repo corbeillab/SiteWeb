@@ -61,7 +61,6 @@
   margin-left: 12%;
   margin-right: 7%;
   /* flex-direction: row; */
-
 }
 
 .proj_description{
@@ -109,10 +108,18 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
+  flex-direction: column;
+  padding-left: 15em;
 }
 
 .no_bullet_list p{
   line-height: 1;
+}
+
+.no_bullet_list li{
+  align-content: center;
+  padding-left: 3em;
+  padding-right: 3em;
 }
 
 .no_bullet_list em{
@@ -134,9 +141,9 @@ hr{
   align-items: center;
   justify-content: center;
   margin-top:3em;
-  margin-left:30%;
-  margin-right:15%;
-
+  padding-left: 15em;
+  /*margin-left:30%;
+  margin-right:15%;*/
 }
 
 .Thanks p{
@@ -147,4 +154,7 @@ hr{
   align-items: center;
   justify-content: center;
 
+  align-content: center;
+  padding-left: 5em;
+  padding-right: 5em;
 }
